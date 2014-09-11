@@ -42,11 +42,11 @@ var GetRelation = {
 				result.push( data[i] );
 			}
 		}
-		console.log( '当前数字为 : ' + num + '   与之最近的10个数为 : [' + result + ']');
-		/*return {
+		//console.log( '当前数字为 : ' + num + '   与之最近的10个数为 : [' + result + ']');
+		return {
 			currentNum : num,
 			result : result
-		}*/
+		}
 	}
 }
 
