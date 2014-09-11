@@ -31,7 +31,7 @@ var GetRelation = {
 		var index = _t.getIndex( num , data );
 		
 		if( index < 0 ){
-			console.log('数组中不包含 : ' + num);
+			window.console&&console.log('数组中不包含 : ' + num);
 			return;
 		}
 		
