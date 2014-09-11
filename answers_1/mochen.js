@@ -23,7 +23,7 @@ var GetRelation = {
 			}
 		}
 	},
-	at : function( num ){
+	at : function( num , arr ){
 		var _t = this;
 		var data = _t.quickSort( arr );
 		var length = data.length;
@@ -51,4 +51,4 @@ var GetRelation = {
 }
 
 
-//GetRelation.at(99978);
+//GetRelation.at(99978 , arr );
