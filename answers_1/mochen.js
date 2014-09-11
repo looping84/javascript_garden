@@ -22,12 +22,19 @@ var GetRelation = {
 				return i;
 			}
 		}
+		return -1;
 	},
 	at : function( num , arr ){
 		var _t = this;
 		var data = _t.quickSort( arr );
 		var length = data.length;
 		var index = _t.getIndex( num , data );
+		
+		if( index < 0 ){
+			console.log('数组中不包含 : ' + num);
+			return;
+		}
+		
 		var result = [];
 		var start = index - 5 ;
 		var end = index + 6;
