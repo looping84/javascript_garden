@@ -16,7 +16,7 @@ function getNearest10(num){
 
     });
 
-    var b = a.slice(0,9);
+    var b = a.slice(0,10);
 
 
     var c = b.map(function(el){
