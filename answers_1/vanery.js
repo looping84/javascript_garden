@@ -1,5 +1,4 @@
 var quickSort = function(arr, len) {　
-	//var len = arr.length;　
 	if (len <= 1) return arr;
 	var pivotIndex = Math.floor(len / 2),
 		pivot = arr.splice(pivotIndex, 1)[0],
